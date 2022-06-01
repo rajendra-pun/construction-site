@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    --white: #ffffff;
+    --gray: #efefef;
+    --yellow: #efe23b;
+    --black: #000;
+}
+
+p,
+a {
+    color: var(--black);
+}
+
+.sec-p {
+    padding: 80px 0;
+}
+
+.custom-btn {
+    background-color: var(--yellow);
+    color: var(--white);
+    padding: 8px 20px;
+}
+
+header {
+    background-color: var(--gray);
+}
+
+nav .nav-item .nav-link {
+    color: var(--black);
+}
+
+.home-banner .banner-content h2 {
+    color: var(--yellow);
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.home-banner .banner-content h1 {
+    color: var(--black);
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 10px 0;
+    position: relative;
+}
+
+.home-banner .banner-content h1:after {
+    position: absolute;
+    content: '';
+    bottom: -20px;
+    left: 0;
+    background-color: var(--yellow);
+    width: 70px;
+    height: 2px;
+
+}
+
+.home-banner .banner-content p {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 300;
+    padding: 46px 0 10px 0;
+}
+
+.invoice-table .table {
+    border: 1px solid var(--black);
+}
+
+.invoice-table .table th {
+    background-color: var(--gray);
+}
+
+.invoice-table .table tr.desc-table th {
+    width: 20%;
+}
+
+.invoice-table .table td .td-title {
+    font-size: 18px;
+    color: var(--black);
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--yellow);
+}
+
+footer .footer-detail .social-links a {
+    margin-right: 10px;
+}
+
+footer .footer-email form ::placeholder {
+    font-size: 14px;
+    /* color: var(--gray); */
+    padding: 5px;
+}
+
+footer .footer-email form .form-control {
+    background: none;
+    border: none;
+    border-bottom: 2px solid var(--black);
+}
+
+footer .footer-btn {
+    background: var(--black);
+    border-color: black;
+}
+
+footer .footer-btn:hover {
+    background-color: var(--black);
+}
